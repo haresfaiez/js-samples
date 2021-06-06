@@ -2,7 +2,8 @@ var Sum = require('./sum');
 
 
 function findSum() {
-  return Sum.sum(1, 9);
+  const result = Sum.sum(1, 9);
+  return result;
 }
 
 findSum();
